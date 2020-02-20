@@ -1,5 +1,5 @@
 % Date: 20/02/2020
-% plotting 2D graphs
+% plotting 3D graphs
 
 % step 1: defining our vectors
 x = [-4:0.1:4];
@@ -35,7 +35,7 @@ figure(2);contour(u,v,z);
 % generating a surface plot
 % [source: documentation] surf(Z) creates a surface plot and uses the column and 
 % row indices of the elements in Z as the x- and y-coordinates.
-% surfc() creates a three-dimensional surface plot with contour plot underneath
+% surfc() creates a 3-D surface plot with contour plot underneath
 figure(3);surfc(u,v,z);
 % to check a specific portion of the graph we pass the interval limits as arguments
 % to the function axis(limits).

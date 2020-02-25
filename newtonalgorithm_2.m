@@ -9,3 +9,7 @@ if r > tol
     disp ( sprintf ( '\t\t %3d \t %.7f \t  %.7f\t ', i,r,x));
 else     break; 
 end
+
+% test the function with these values:
+% f = @(x) sin(1-x.^2)-x
+% fp = @(x)cos(1-x.^2)*(-2*x) - 1

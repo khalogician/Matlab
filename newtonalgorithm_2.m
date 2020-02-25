@@ -9,4 +9,3 @@ if r > tol
     disp ( sprintf ( '\t\t %3d \t %.7f \t  %.7f\t ', i,r,x));
 else     break; 
 end
-end

@@ -1,4 +1,6 @@
-% newton algorithm is a method of approximating roots of functions
+% Date: 25/02/2020
+% Newton algorithm is a method of approximating roots of functions
+
 function x = mynewton (f,fd ,x0 ,n)
 format long                                       % prints more digits
 x = x0;                                           % set x equal to the initial guess x0

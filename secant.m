@@ -1,4 +1,5 @@
 % Date: 03/03/2020
+
 function secantmethod(f, x0,x1,n,tol);
 r = 10;
 for i = 1:n

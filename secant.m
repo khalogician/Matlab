@@ -15,3 +15,7 @@ else break;
     x0 = x1;    x1=x2;
 end
 plot(E, 'ro-');
+
+% values to pass:
+% secantmethod(f,3,2,100,0.000001)
+% secantmethod(f,2,1,100,0.000001)
